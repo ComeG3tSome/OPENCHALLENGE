@@ -82,7 +82,7 @@ for word in words:
 # For loop to determine the value of the highest frequency variable
 for key, value in dictWordFrequency.items():
 
-    # Evaluate if the frequency of the current word is greater than the current highest frequency
+    # Ensure that the frequency of the current word is greater than the current highest frequency
     if value > hghFrequency:
         # Assign the new highest frequency value
         hghFrequency = value
