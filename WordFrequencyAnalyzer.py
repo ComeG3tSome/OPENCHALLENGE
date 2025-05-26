@@ -22,7 +22,7 @@ Punctuation stays (don't remove it).
 Maintain case sensitivity (e.g., "Word" and "word" are different).
 '''
 
-paragraph = """A paragraph is a distinct section of writing that focuses on a single idea or topic, typically consisting of several sentences. It's usually indicated by an indent at the beginning of the first sentence and helps organize and structure written work, making it easier for readers to follow the author's thoughts."""
+paragraph = input("Enter your paragraph: \n")
 
 wordFrequency = []
 
